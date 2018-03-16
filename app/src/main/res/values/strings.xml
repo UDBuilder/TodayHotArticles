@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">今日头条</string>
+
+    <string name="comment_count">"%d评论"</string>
+    <string name="posted_just_now" msgid="6632467048088811568">"刚刚"</string>
+    <string name="posted_now" msgid="867560789350406701">"刚刚"</string>
+    <plurals name="num_minutes_ago" formatted="false" msgid="4085627474543076735">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>分钟前</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>分钟前</item>
+    </plurals>
+    <plurals name="num_hours_ago" formatted="false" msgid="8010868301590914325">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>小时前</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>小时前</item>
+    </plurals>
+    <plurals name="num_days_ago" formatted="false" msgid="8753803762044567843">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>天前</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>天前</item>
+    </plurals>
+    <plurals name="week_count" formatted="false" msgid="1301973226125551953">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>周前</item>
+        <item quantity="one">1周前</item>
+    </plurals>
+    <plurals name="month_count" formatted="false" msgid="4858515363324110232">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>个月前</item>
+        <item quantity="one">1个月前</item>
+    </plurals>
+    <plurals name="year_count" formatted="false" msgid="4522546496183798317">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>年前</item>
+        <item quantity="one">1年前</item>
+    </plurals>
+
+    <string name="database_version">1</string>
+</resources>
