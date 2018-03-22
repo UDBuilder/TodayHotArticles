@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
+    <com.androidkun.PullToRefreshRecyclerView
         android:id="@+id/recycler_view"
         android:paddingStart="@dimen/recycler_view_padding"
         android:paddingEnd="@dimen/recycler_view_padding"

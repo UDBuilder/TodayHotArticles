@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.coolpad.www.todaynews"
+        applicationId "com.udbuilder.todaynews"
         minSdkVersion 25
         targetSdkVersion 26
         versionCode 1
@@ -24,4 +24,5 @@ dependencies {
     implementation 'com.android.support:design:26.1.0'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.androidkun:pulltorefreshrecyclerview:1.0.9'
 }
